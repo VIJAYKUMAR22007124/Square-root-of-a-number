@@ -16,6 +16,12 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```
+def num(nu,nu_it=100):
+    for i in range (nu_it):
+        nu=0.5*(nu + a/ nu)
+    return nu
+a = float(input())
+print("Square root of the number:",num(a))
 /*
 Program to find the square root for the given number(newton's method) using function.
 Developed by: 
@@ -24,7 +30,7 @@ RegisterNumber:
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![model](sq.png)
 
 
 ## Result:
